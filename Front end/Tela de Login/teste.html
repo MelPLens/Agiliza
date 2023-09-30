@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Login do Agiliza</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+input[type="submit"] {
+  background-color:#ff9011;
+  color: #fff;
+  cursor: pointer;
+}
+a {
+  color: #ff9011;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tela de Login do Agiliza</h1>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Nome de usuário">
+      <input type="password" name="password" placeholder="Senha">
+      <input type="submit" value="Login">
+    </form>
+    <a href="/forgot-password">Esqueceu sua senha?</a>
+    <a href="/create-account">Ainda não tem uma conta? Crie uma agora.</a>
+  </div>
+</body>
+</html>

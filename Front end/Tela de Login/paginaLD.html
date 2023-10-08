@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líder - Agiliza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .pagina-ld-container {
+            background-color: #FFA500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button-container button {
+            background-color: #ffffff;
+            color: #FFA500;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .button-container button:hover {
+            background-color: rgba(114, 114, 114, 0.585);
+            color: white;
+        }
+
+        .logout-button {
+            font-size: 14px;
+            color: #ffffff;
+            cursor: pointer;
+            margin-top: 20px;
+            background: none;
+            border: none;
+            padding: 4px 8px;
+        }
+
+        .logout-button:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina-ld-container">
+        <h1>Área do Líder</h1>
+        <div class="button-container">
+            <button onclick="pedidos()">Pedidos</button>
+        </div>
+        <button class="logout-button" onclick="confirmLogout()">Sair</button>
+    </div>
+
+    <script>
+        function pedidos() {
+            // Adicione a lógica para redirecionar para a página de pedidos
+            window.location.href = "pedidos.html";
+        }
+
+        function confirmLogout() {
+            // Confirme o logout com o usuário antes de redirecionar para a página de login
+            if (confirm("Tem certeza de que deseja fazer logout?")) {
+                // Se o usuário confirmar, redirecione para a página de login
+                window.location.href = "index.html";
+            }
+        }
+    </script>
+</body>
+</html>

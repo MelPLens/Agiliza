@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página GR - Controle de Processos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .pagina-gr-container {
+            background-color: #FFA500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button-container button {
+            background-color: #ffffff;
+            color: #FFA500;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            position: relative; /* Adicionado para posicionar o ícone */
+        }
+
+        .button-container button:hover {
+            background-color: rgba(114, 114, 114, 0.585);
+            color: white;
+        }
+
+        .alert-icon {
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50%; /* Centraliza verticalmente */
+            right: 10px; /* Posiciona à direita */
+            transform: translate(0, -50%); /* Centraliza verticalmente */
+            background-color: red;
+            border-radius: 50%; /* Transforma em uma bolinha */
+            width: 24px;
+            height: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logout-button {
+            background-color: transparent;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .logout-button:hover {
+            background-color: rgba(114, 114, 114, 0.585);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina-gr-container">
+        <h1>Gerência</h1>
+        <div class="button-container">
+            <button onclick="rastreamento()">Rastreamento</button>
+            <button onclick="colaboradores()">Colaboradores</button>
+            <button onclick="novosPedidos()">Novos Pedidos<span class="alert-icon">3</span></button>
+            <button class="logout-button" onclick="sair()">Sair</button>
+        </div>
+    </div>
+
+    <script>
+        function rastreamento() {
+            // Adicione a lógica para redirecionar para a página de rastreamento
+            window.location.href = "rastreamento.html";
+        }
+
+        function colaboradores() {
+            // Adicione a lógica para redirecionar para a página de colaboradores
+            window.location.href = "colaboradores.html";
+        }
+
+        function novosPedidos() {
+            // Adicione a lógica para redirecionar para a página de novos pedidos
+            window.location.href = "novos_pedidos.html";
+        }
+
+        function sair() {
+            // Confirme o logout com o usuário antes de redirecionar para a página de login
+            if (confirm("Tem certeza de que deseja fazer logout?")) {
+                // Se o usuário confirmar, redirecione para a página de login
+                window.location.href = "index.html";
+        }
+    }
+    </script>
+</body>
+</html>

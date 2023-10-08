@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Agiliza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #FFA500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        input {
+            width: 100%;
+            padding: 4px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+
+        button {
+            background-color: white;
+            color: #FFA500;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgba(114, 114, 114, 0.585);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Agiliza - Controle de Processos</h1>
+        <input type="text" id="username" placeholder="Usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Aqui você pode adicionar lógica de autenticação
+            // Verificar as credenciais e redirecionar para a página apropriada
+
+            if (username === "ADM" && password === "3012") {
+                window.location.href = "paginaADM.html";
+            } else if (username === "GR" && password === "3112") {
+                window.location.href = "paginaGR.html";
+            } else if (username === "LD" && password === "3212") {
+                window.location.href = "paginaLD.html";
+            } else {
+                alert("Usuário ou senha incorretos. Tente novamente.");
+            }
+        }
+    </script>
+</body>
+</html>

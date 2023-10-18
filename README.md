@@ -1,4 +1,4 @@
-# Agiliza
+# Agiliza - Back
 ## Quem somos
 A Agiliza é uma empresa dedicada a otimizar e simplificar processos operacionais em diversos setores da indústria e do mercado. Com uma equipe multidisciplinar de especialistas em tecnologia, gerenciamento de processos e automação, estamos comprometidos em oferecer soluções inovadoras que impulsionam a eficiência e a produtividade de nossos clientes.
 

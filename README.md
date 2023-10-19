@@ -43,28 +43,43 @@ A Agiliza é uma empresa dedicada a otimizar e simplificar processos operacionai
 ✔️ Redução de Gargalos
 
 ## Distribuição
-Link para teste da versão disponibilizada.
+Acesse o aplicativo Agiliza através do [link de distribuição](inserir_link_aqui).
 
 ## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+Certifique-se de que você atenda aos seguintes pré-requisitos antes de rodar o projeto:
+- Sistema operacional:Windows 10
+- Navegador da web: Google
+- Conta de usuário e senha:
+  Username: ADM  senha:3012
+  Username: GR   senha:3112
+  Username: LD   senha:3212
+  
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
-
+Siga as etapas abaixo para rodar o aplicativo Agiliza em sua máquina:
+1. Clone este repositório em seu ambiente local usando o seguinte comando: git clone
+2. Navegue até o diretório onde o repositório foi clonado.
+3. Abra o arquivo 'index.html' em seu navegador da web.
+4. O aplicativo Agiliza agora deve ser carregado e pronto para uso.
+   
 ## Testes realizados
-Teste de aceitação,teste de sistema,teste de caixa branca,teste de desempenho,usabilidade,segurança e portabiliadade.
+- Teste de aceitação;
+- Teste de sistema;
+- Teste de caixa branca;
+- Teste de desempenho;
+- Teste de usabilidade;
+- Teste de segurança;
+- Teste de portabilidade.
+  
 ## Banco de Dados 🗂️
 Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
 
 ## Linguagens, dependencias e libs utilizadas 📚
-Html
-CSS
-Javascript
-Java
-Banco de dados
+- Html
+- CSS
+- Javascript
+- Java
+- Banco de dados
 
 
 ## Resolvendo Problemas 
@@ -80,7 +95,11 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 📝 Tarefa 3
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+Mel Plens Angelis
+Vinícius Carvalho
+Matheus Mascarenhas
+João Candini
+Guilherme Torres
 
 ## Licença
 The MIT License (MIT)

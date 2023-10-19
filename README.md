@@ -95,14 +95,14 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 📝 Tarefa 3
 
 ## Desenvolvedores/Contribuintes:
-Mel Plens Angelis
-Vinícius Carvalho
-Matheus Mascarenhas
-João Candini
-Guilherme Torres
+- Mel Plens Angelis
+- Vinícius Carvalho
+- Matheus Mascarenhas
+- João Candini
+- Guilherme Torres
 
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ 2023 - Agiliza
 

@@ -50,9 +50,9 @@ Certifique-se de que você atenda aos seguintes pré-requisitos antes de rodar o
 - Sistema operacional:Windows 10
 - Navegador da web: Google
 - Conta de usuário e senha:
-  Username: ADM  senha:3012
-  Username: GR   senha:3112
-  Username: LD   senha:3212
+  - Username: ADM  senha:3012
+  - Username: GR   senha:3112
+  - Username: LD   senha:3212
   
 
 ## Como rodar a aplicação 
@@ -81,18 +81,6 @@ Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv
 - Java
 - Banco de dados
 
-
-## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
-
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
-
-📝 Tarefa 1
-
-📝 Tarefa 2
-
-📝 Tarefa 3
 
 ## Desenvolvedores/Contribuintes:
 - Mel Plens Angelis

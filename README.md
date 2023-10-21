@@ -72,7 +72,7 @@ Siga as etapas abaixo para rodar o aplicativo Agiliza em sua máquina:
 - Teste de portabilidade.
   
 ## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+MySQL Workbanch
 
 ## Linguagens, dependencias e libs utilizadas 📚
 - Html

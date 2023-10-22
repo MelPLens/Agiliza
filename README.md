@@ -72,7 +72,7 @@ Siga as etapas abaixo para rodar o aplicativo Agiliza em sua máquina:
 - Teste de portabilidade.
   
 ## Banco de Dados 🗂️
-MySQL Workbanch
+MySQL Workbanch csv
 
 ## Linguagens, dependencias e libs utilizadas 📚
 - Html

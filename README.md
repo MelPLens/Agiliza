@@ -1,6 +1,6 @@
 # Agiliza
 ## Versão: 1.0 
-## Status do Projeto:  ⚠️ Espera 
+## Status do Projeto:  Concluido
 
 ## Tópicos
 🔹 Descrição do projeto 
